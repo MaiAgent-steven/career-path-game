@@ -75,7 +75,27 @@
 ## 🎲 遊戲流程
 
 <div align="center">
-<img src="https://mermaid.ink/img/pako:eNp1UstuwjAQ_BVrT61UKcq9FxAcOLWHHnyJvMRdYnBsZJsKIf69mwcIQb0kms6sZzyzJ1pZRimjuTEv1m4Lw7hW1nAdZV5X2kHmzJrwDRvuY1Oe22qrcvDcBXAcRyseMoAXA_hx0eOFnYbdw_U8AShJEFwu5CRaZADJp1EaJQmb9hA-TWD4lHBRcBJO5rrTMFohCVRX3AJaCRXQUrkyF4LwBoqsAVJD-K22aYzQM-RQx8fR8bSZbTk4Z_hNgG4kXgDNbmCjCMZZRz4wbvTZlwYCL5pBWx8a0_mBD6X6dH9G8PYDxnkpHTzAFr9F2Bm5MVoLt_kY_s2dUIIcNiqXXLuSxjvJhbYuqntriwzHMpouq5T262PXpW94P0qZkbZBa7aq60Wn6FfvB8OMbivPeUNzaFbURnTTsObpL0r2rqw" alt="遊戲流程圖" width="500">
+
+```mermaid
+graph TD
+    A[開始遊戲] --> B[問題1: 理想日子]
+    B --> C1[問題2A: 穩定工作類型]
+    B --> C2[問題2B: 靈活工作模式]
+    B --> C3[問題2C: 專業挑戰類型]
+    B --> C4[問題2D: 幫助他人方式]
+    C1 --> D[問題3: 核心價值觀]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    D --> E[問題4: 技能盤點]
+    E --> F[問題5: 面試展現]
+    F --> G1[結果: 技術專家導向]
+    F --> G2[結果: 問題解決者導向]
+    F --> G3[結果: 持續學習者導向]
+    F --> G4[結果: 團隊合作者導向]
+    F --> G5[結果: 領導者導向]
+```
+
 </div>
 
 1. 📋 用戶回答關於工作偏好的問題
@@ -165,7 +185,27 @@
 ### 🔄 AI輔助改進流程
 
 <div align="center">
-<img src="https://mermaid.ink/img/pako:eNqNksFqwzAMhl_F-NRCCWMnOQzK1rHDKKWHXYIPwaZJWGIHW01ZCHv3OUtYs5bSDpbs35L-T9IPtArMEVGfVWXUq7aFYKzQGql1nVdlJWDn1aNjK8KpTcIrxDc0dYuGUjvqTWrJlkEcTY3Sil1yVGWMqkKUC27zyiWTCu-gQpSqBZ0y4mXKsn8x6qaxMY9Rh9AyjCbH-RGF4pSmN_YZRmyFxKQWAWNSE4k7WBIzTwgPgPr_IafJdPHE9cXZJ-d49sxJxNXH2bdNyPNkmb3k2XL1cbx7n7N8Mk3GdJP5PE2TP8aNpbS75_C4RyYnbJ6fzZ6aUeemGzBOOc0y2i_Q5wgcE_oTrN8sBU7jZKu8_NLbxPiLtiByPTc1DtHYthd7Z0s9RKVpbYO4ld41aHKM1mrTaX3wjTQlrh3nqGkJNbYb5fqDujLCqZpGnK7xHy-M-wWW7sHS" alt="AI輔助開發流程" width="600">
+
+```mermaid
+graph LR
+    A[需求分析] --> B[AI生成代碼]
+    B --> C[人工審查]
+    C --> D{需要調整?}
+    D -->|是| E[給予反饋]
+    E --> B
+    D -->|否| F[合併代碼]
+    F --> G[測試運行]
+    G --> H{有問題?}
+    H -->|是| E
+    H -->|否| I[完成功能]
+    
+    style A fill:#d4f1f9,stroke:#05728f
+    style B fill:#d1f1d1,stroke:#0a560a
+    style C fill:#ffe6cc,stroke:#bf6900
+    style F fill:#d1f1d1,stroke:#0a560a
+    style I fill:#d5e8d4,stroke:#82b366
+```
+
 </div>
 
 1. 🔄 通過多輪對話優化UI設計和用戶體驗
