@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# 職業生涯導向小遊戲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+這是一個互動式職業生涯導向遊戲，幫助用戶通過回答一系列問題來探索適合自己的職業方向。
 
-## Available Scripts
+## 專案介紹
 
-In the project directory, you can run:
+在當今快速變化的就業市場中，很多人對自己的職業方向感到迷茫。這個小遊戲通過提問的方式，根據用戶的偏好、價值觀和技能，推薦最適合的職業發展路徑和面試準備策略。
 
-### `npm start`
+### 特色功能
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 互動式問答界面
+- 根據用戶回答動態調整後續問題
+- 提供詳細的職業方向建議
+- 包含面試策略和履歷重點提示
+- 響應式設計，適合各種設備使用
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 技術棧
 
-### `npm test`
+- React 19.1.0
+- TypeScript 4.9.5
+- CSS3
+- Node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 開始使用
 
-### `npm run build`
+### 安裝
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 克隆此存儲庫
+   ```
+   git clone https://github.com/MaiAgent-steven/career-path-game.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. 安裝依賴
+   ```
+   cd career-path-game
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. 啟動開發伺服器
+   ```
+   npm start
+   ```
 
-### `npm run eject`
+4. 在瀏覽器中打開 [http://localhost:3000](http://localhost:3000) 查看應用
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 構建生產版本
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 遊戲流程
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. 用戶回答關於工作偏好的問題
+2. 根據回答引導至下一個更具體的問題
+3. 完成所有問題後，給出職業導向建議
+4. 提供面試準備和履歷優化的具體建議
 
-## Learn More
+## 結果類型
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+遊戲會根據用戶的回答，將其歸類為以下職業導向之一：
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **技術專家導向**：適合深入技術領域發展的人
+- **問題解決者導向**：適合處理複雜問題和系統優化的人
+- **持續學習者導向**：適合快速學習和適應新技術的人
+- **團隊合作者導向**：適合團隊協作和溝通的人
+- **領導者導向**：適合帶領團隊和項目管理的人
+
+每種導向都會提供：
+- 適合的職位建議
+- 推薦的產業領域
+- 面試技巧和準備方法
+- 履歷撰寫重點
+
+## 貢獻指南
+
+歡迎提交問題報告和拉取請求。對於重大更改，請先開啟一個問題討論您想要更改的內容。
+
+## 授權
+
+[MIT](https://choosealicense.com/licenses/mit/)
