@@ -43,11 +43,6 @@
 
 4. 在瀏覽器中打開 [http://localhost:3000](http://localhost:3000) 查看應用
 
-### 構建生產版本
-
-```
-npm run build
-```
 
 ## 遊戲流程
 
@@ -76,6 +71,3 @@ npm run build
 
 歡迎提交問題報告和拉取請求。對於重大更改，請先開啟一個問題討論您想要更改的內容。
 
-## 授權
-
-[MIT](https://choosealicense.com/licenses/mit/)
